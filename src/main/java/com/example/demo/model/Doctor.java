@@ -7,8 +7,8 @@ public class Doctor {
 
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name="Doctor_id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name="doctor_id")
     private long id;
     private String name;
     private int age;
